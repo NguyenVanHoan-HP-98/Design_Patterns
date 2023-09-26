@@ -196,7 +196,9 @@ public class ReflectionBreakSingleton {
 }
 ```
 _Output của chương trình:_
+
 ![img_1.png](img_1.png)
+
 Tương tự Eager Initialization, implement theo Bill Pugh Singleton cũng bị break bởi Reflection.
 
 ## 3.8. Enum Singleton
