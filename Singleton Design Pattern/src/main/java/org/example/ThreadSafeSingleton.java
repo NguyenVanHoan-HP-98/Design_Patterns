@@ -17,12 +17,13 @@ public class ThreadSafeSingleton {
     public static synchronized ThreadSafeSingleton getInstance() {
         if(threadSafeSingleton == null)
         {
+            System.gc();
             threadSafeSingleton= new ThreadSafeSingleton(new Random().nextInt(1,10000));
         }
         return threadSafeSingleton;
     }
 
     public void SayHi() {
-        System.out.println("Say hi: Thread Safe Singleton -> " + index);
+        System.out.println("Say hi: Thread Safe Singleton -> " + index + " - " + threadSafeSingleton.hashCode());
     }
 }

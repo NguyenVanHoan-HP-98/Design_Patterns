@@ -16,12 +16,13 @@ public class LazyInitializationSingleton {
 
     public static LazyInitializationSingleton getInstance() {
         if (lazyInitializationSingleton == null) {
+            System.gc();
             lazyInitializationSingleton = new LazyInitializationSingleton(new Random().nextInt(1000));
         }
         return lazyInitializationSingleton;
     }
 
     public void SayHi() {
-        System.out.println("Say hi: Lazy Initialization singleton -> " + index);
+        System.out.println("Say hi: Lazy Initialization singleton -> " + index + "- " + lazyInitializationSingleton.hashCode());
     }
 }
