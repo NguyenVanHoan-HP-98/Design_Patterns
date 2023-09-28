@@ -1,0 +1,1 @@
+# 1. Abstract Factory Pattern là gì?
