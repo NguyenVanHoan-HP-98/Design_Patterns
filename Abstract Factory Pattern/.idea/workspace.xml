@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47f4ba10-19f3-4d4f-98ac-db1ee7b26bb4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Cntt/AppCntt/Xuly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Cntt/Gui/AbstractProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Cntt/Gui/DVCntt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Cntt/Gui/KichHoat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Cntt/Gui/KichHoatOneServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Cntt/Gui/KichHoatTwoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Cntt/Gui/KichhoatDVInBot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Cntt/Gui/TaoReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Cntt/Gui/TaoReqTrucTiep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Cntt/Gui/TaoReqTuHDTB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Company/Chair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Company/FlasticFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Company/FurnitureAbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Company/FurnitureFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Company/MaterialType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Company/PlasticChair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Company/PlasticTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Company/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Company/WoodChair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Company/WoodFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Company/WoodTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
@@ -29,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -53,6 +54,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -89,22 +91,12 @@
       <option name="presentableId" value="Default" />
       <updated>1695895847917</updated>
       <workItem from="1695895848936" duration="41000" />
-      <workItem from="1695919417406" duration="3762000" />
+      <workItem from="1695919417406" duration="5173000" />
+      <workItem from="1695961215183" duration="5415000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
