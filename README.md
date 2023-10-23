@@ -22,3 +22,4 @@ State Pattern
 Strategy Pattern
 Template Method Pattern
 Visitor Pattern
+![image](https://github.com/NguyenVanHoan-HP-98/Design_Patterns/assets/57455728/aa76ca11-d3e9-49b7-833e-40c308cb2871)
